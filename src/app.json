@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/news/main",
+    "pages/index/main",
+    "pages/logs/main" 
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "趣闻",
+    "navigationBarTextStyle": "black"
+  },
+   "tabBar": {
+    "selectedColor": "#4286f4",
+    "list": [
+      {
+        "pagePath": "pages/news/main",
+        "text": "趣闻",
+        "iconPath":"static/images/news.png",
+        "selectedIconPath":"static/images/selectednews.png"
+      },
+      {
+        "pagePath": "pages/index/main",
+        "text": "我的",
+        "iconPath":"static/images/home.png",
+        "selectedIconPath":"static/images/selectedhome.png"
+      }
+    ]
+  }
+}
